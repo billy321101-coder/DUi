@@ -1,4 +1,3 @@
-print('Yes Sam Kak MakMak ')
 local placeId = game.PlaceId
 if placeId == 2753915549 or placeId == 4442272183 or placeId == 7449423635 then
     BF = true
@@ -16,11 +15,7 @@ elseif placeId == 2809202155 then
     YBA = true
     print("\n game not support")
 end
-spawn(function()
-	while wait() do 
-		print("JayKung#8973 ")
-	end
-end)
+
 if BF then
 	repeat wait() until game:IsLoaded()
 	if getgenv().Setting then else
