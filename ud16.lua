@@ -1,20 +1,28 @@
 local placeId = game.PlaceId
+
 if placeId == 2753915549
 or placeId == 4442272183
 or placeId == 7449423635
 or placeId == 100117331123089 then
     BF = true
-end
+
 elseif placeId == 3237168 then
     OPL = true
+
 elseif placeId == 914010731 then
     RO = true
+
 elseif placeId == 6299805723 then
     AFS = true
-elseif placeId == 4520749081 or placeId == 6381829480 or placeId == 5931540094 then
-	KL = true
+
+elseif placeId == 4520749081
+or placeId == 6381829480
+or placeId == 5931540094 then
+    KL = true
+
 elseif placeId == 4042427666 then
     ANS = true
+
 elseif placeId == 2809202155 then
     YBA = true
     print("\n game not support")
